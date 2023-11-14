@@ -32,7 +32,8 @@ public with sharing class FlowControlLoopsCollections {
         if(x == null || y == null) {
             return null;
         }
-        if(x > y ) {
+        // this tests if x is greater than y
+        if(x > y) {
             return 'Hello World!';
         }
         return null; // Replace null with the variable you used to store the result
